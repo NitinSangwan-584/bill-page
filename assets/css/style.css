@@ -34,6 +34,24 @@
     padding-right: 12px;
 }
 
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .bg-image {
     background-image: url("/assets/img/bg-bill.png");
     background-repeat: no-repeat;
@@ -90,31 +108,31 @@
 }
 
 /* center-property */
-.justify-item-center {
-    justify-items: center;
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
 }
 
 .align-items-center {
     align-items: center;
 }
 
+.justify-item-center {
+    justify-items: center;
+}
+
 .justify-content-center {
     justify-content: center;
 }
 
-.text-align-center {
-    text-align: center;
-}
-
-/* left  */
-.text-align-left {
-    text-align: left;
-}
-
-/* s-between*/
 .justify-content-space-between {
     justify-content: space-between;
 }
+
+/* s-between*/
 
 /*h */
 .min-h-100 {
@@ -441,6 +459,310 @@
     color: #ffffff;
 }
 
+/* section-3 */
+.section-3 .heading {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.8px;
+    max-width: 456px;
+    color: #00171F;
+    padding-bottom: 46px;
+}
+
+.section-3 .h-span {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: #00171F;
+}
+
+.section-3 .h3 {
+    color: #00171F;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    opacity: 90%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 24px;
+}
+
+.accordian-content {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    opacity: 90%;
+    color: #00171F;
+    padding-left: 90px;
+}
+
+.detail {
+    border: 1px solid #00000014;
+    background: #FFFFFF;
+    max-width: 558px;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.detail[open] {
+    box-shadow: 0px 0px 13.9px 0px #0000001A;
+}
+
+.detail[open] .h3 {
+    padding-bottom: 8px;
+    padding-top: 14px;
+}
+
+.detail[open] .arrow-svg {
+    transform: rotate(180deg);
+}
+
+.accordian-logo {
+    background: #EAF9FF;
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+}
+
+.detail[open] .accordian-logo {
+    background: #003459;
+}
+
+.detail[open] .accordian-logo path {
+    fill: white;
+}
+
+.petrol {
+    padding: 17px;
+}
+
+.bulb {
+    padding: 17px;
+}
+
+.net-logo {
+    padding: 17px;
+}
+
+.bundle {
+
+    padding: 15px;
+}
+
+
+/* section-4 */
+.section-4 .h2 {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.8px;
+    color: #00171F;
+}
+
+.section-4 .h2-span {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: #00171F;
+}
+
+.h2-para {
+    max-width: 620px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 90%;
+    color: #00171F;
+}
+
+.card-1 {
+    background: #003459;
+    max-width: 424px;
+    /* height: 596px; */
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.card-1-h {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 12px;
+}
+
+.card-1para {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 90%;
+    color: white;
+    max-width: 344px;
+    padding-bottom: 22px;
+}
+
+.card-1btn {
+    width: 64px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 446px;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.card-2 {
+    max-width: 334px;
+    /* height: 286px; */
+    padding: 24px;
+    border-radius: 4px;
+    border: 1px;
+    border: 1px solid #00171F1A;
+}
+
+.card-2-h {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    color: #010101;
+}
+
+.section-7 .heading {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.8px;
+    text-align: center;
+    color: #00171F;
+
+}
+
+.section-7 .heading span {
+    font-weight: 700;
+}
+
+.section-7 .para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 90%;
+    color: #00171F;
+    justify-items: center;
+
+}
+
+.accordion {
+    width: 916px;
+    height: 76px;
+    padding: 24px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.accordion .container {
+    position: relative;
+    width: 916px;
+    height: 76px;
+    /* padding: 24px 0px 0px 0px; */
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 23.2px 0px #00000014;
+    background: #FEFEFE;
+    margin-bottom: 28px;
+
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+    position: relative;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    color: #00171F;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.accordion .content {
+    position: relative;
+    background: #003459;
+
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FEFEFE;
+    text-align: left;
+
+}
+
+.accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+.accordion .container.active .label {
+    color: #FEFEFE;
+}
+
+.accordion .container.active {
+    width: 916px;
+    height: 140px;
+    padding: 26px 24px 26px 24px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 23.2px 0px #00000014;
+    color: white;
+    background: #003459;
+
+}
+
+
+.accordion .container.active .label::before {
+    content: '-';
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
 @media (max-width:375px) {
     .compare-btn {
         right: 15%;
@@ -574,6 +896,14 @@
 
     .icons {
         gap: 20px;
+    }
+
+    .detail {
+        max-width: unset;
+    }
+
+    .section-3 .heading {
+        max-width: unset;
     }
 }
 
